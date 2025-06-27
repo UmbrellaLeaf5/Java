@@ -1,3 +1,4 @@
+// Пример ссылочного типа:
 public class Human {
   int age;
   double weight;
