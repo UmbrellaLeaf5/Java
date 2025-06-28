@@ -22,4 +22,11 @@ public class Human {
   void DoBirthDay() {
     age += 1;
   }
+
+  double DoSomething(int i, double d, boolean b, float f) {
+    if (b)
+      return (i + d) * f;
+    else
+      return 0.0;
+  }
 }
